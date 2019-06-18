@@ -11,7 +11,8 @@
 
         const Routes = [
             "Dummy",
-            "Login"
+            "Login",
+            "Order"
         ];
     }
 ?>

@@ -29,7 +29,7 @@
             "host"  => "localhost",
             "user"  => "root",
             "pass"  => "",
-            "db"    => "training"
+            "db"    => "remap_api"
         ];
 
         /**
