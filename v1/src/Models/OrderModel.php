@@ -32,14 +32,22 @@
             return $this->db->fetchAll();
         
         }
+        
 
         /**
-         * Function Get Comodity
+         * Get search Commodity
          * 
          * @param array
          * @return object
          */
-       
+        public function searchComo ( $params ) {
+
+            // Querying sql
+            $this->db->query( "SELECT * FROM `pmr_t_post_commodities` WHERE `name` LIKE :name ", $params );
+           
+            // Return
+            return $this->db->fetchAll();
+        }
       
     }
 ?>
