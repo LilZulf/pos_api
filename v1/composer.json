@@ -1,0 +1,13 @@
+{
+    "name": "Api Skeleton",
+    "description": "Rest Api Skeleton Version 10",
+    "type": "project",
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    }
+}
